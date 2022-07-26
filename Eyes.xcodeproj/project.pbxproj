@@ -14,6 +14,8 @@
 		0C81BFD9288FAEFA00CEB666 /* EyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C81BFD8288FAEFA00CEB666 /* EyesTests.swift */; };
 		0C81BFE3288FAEFA00CEB666 /* EyesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C81BFE2288FAEFA00CEB666 /* EyesUITests.swift */; };
 		0C81BFE5288FAEFA00CEB666 /* EyesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C81BFE4288FAEFA00CEB666 /* EyesUITestsLaunchTests.swift */; };
+		0C81BFF22890502A00CEB666 /* DeviceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C81BFF12890502A00CEB666 /* DeviceMonitor.swift */; };
+		0C81BFF42890593100CEB666 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C81BFF32890593100CEB666 /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		0C81BFDE288FAEFA00CEB666 /* EyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C81BFE2288FAEFA00CEB666 /* EyesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesUITests.swift; sourceTree = "<group>"; };
 		0C81BFE4288FAEFA00CEB666 /* EyesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C81BFF12890502A00CEB666 /* DeviceMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMonitor.swift; sourceTree = "<group>"; };
+		0C81BFF32890593100CEB666 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				0C81BFC6288FAEF800CEB666 /* EyesApp.swift */,
 				0C81BFC8288FAEF800CEB666 /* ContentView.swift */,
+				0C81BFF32890593100CEB666 /* Notifications.swift */,
+				0C81BFF12890502A00CEB666 /* DeviceMonitor.swift */,
 				0C81BFCA288FAEF900CEB666 /* Assets.xcassets */,
 				0C81BFCF288FAEFA00CEB666 /* Eyes.entitlements */,
 				0C81BFCC288FAEFA00CEB666 /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C81BFF42890593100CEB666 /* Notifications.swift in Sources */,
 				0C81BFC9288FAEF800CEB666 /* ContentView.swift in Sources */,
 				0C81BFC7288FAEF800CEB666 /* EyesApp.swift in Sources */,
+				0C81BFF22890502A00CEB666 /* DeviceMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct EyesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocalNotification()
         }
     }
 }
