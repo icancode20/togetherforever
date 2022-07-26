@@ -29,7 +29,7 @@ class Notifications{
         content.sound = .default
         content.badge = 1
         // time
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval:3600.0, repeats: true)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval:60.0, repeats: true)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(request)
     }
